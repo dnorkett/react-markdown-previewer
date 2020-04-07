@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 class Editor extends React.Component {
     constructor(props) {

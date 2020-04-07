@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import marked from 'marked';
+import 'font-awesome/css/font-awesome.min.css';
 
 
 marked.setOptions({breaks: true,});
