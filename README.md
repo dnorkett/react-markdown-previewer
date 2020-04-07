@@ -4,7 +4,7 @@ Markdown Previewer built using React. This app allows you to type GitHub style m
 
 ## Getting Started
 
-Head over to https://dnorkett.github.io/react-random-quote-generator/ for a live demo.
+Head over to https://dnorkett.github.io/react-markdown-previewer/ for a live demo.
 
 To get the frontend running locally:
 
