@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;    
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  body {    
+      margin: 0;
+      padding: 0;
+      background-color: rgba(58, 205, 216, .60);
+      color: white;
+      display:flex;
+      min-height: 100vh;    
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .title {
+      border: 1px solid black;
+      padding: 7px;
+      background-color: rgba(28, 88, 92, 0.801);    
+    }
+    
+    .lowerBox {    
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;    
+      background-color: rgb(196, 235, 238);
+      color: black;
+      font-size: .75em;
+      min-height: 200px;    
+    }
+  
+  #editorWindow {
+    width: 33%;  
   }
-  to {
-    transform: rotate(360deg);
+  
+  #previewerWindow {
+    width: 50%;
   }
-}
+  
+  #main {  
+    min-width: 95vw;
+    display: flex;
+    flex-direction:column;  
+    justify-content: center;
+    align-content: center;
+    align-items: center;  
+    padding: 10px;
+  }
+  
+  .mainBox {  
+    margin: 10px;
+    box-shadow: 4px 4px 4px grey;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(196, 235, 238);
+    resize: none;
+    border: none;  
+  }
+  
+  #preview {
+    white-space: pre-line;
+    margin: 0;
+    padding: 30px;
+    display:flex;
+    font-size: 1rem;    
+    flex-direction: column;    
+  }
+  
+  ul {
+  padding-left: 35px;
+  }
+  
+  h1 {
+  padding-bottom: 15px;
+  }
